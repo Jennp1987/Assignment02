@@ -2,10 +2,10 @@
 
 
 var userNum = Number(window.prompt("Enter number of your choice starting from 1"));
-if (userNum) {
-    for (; userNum >= 0; userNum--) {
-      window.console.log(userNum);
-   }
+
+var i = userNum;
+for (i; i >= 0; i -= 1) {
+    window.console.log(i);
 }
 
 
